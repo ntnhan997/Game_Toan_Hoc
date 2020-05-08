@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+</head>
+<body>
+	<div id="container">
+		<button type="button" id="container__btn-play">Click để chơi game</button>
+		<span id="container__seconds">0</span>
+		<div id="container__seconds-animate">
+					
+		</div>	
+		
+		<div id="container__btn-list">
+			<button type="button" value="<" id="container__btn-1" class="btn"><</button>
+			<button type="button" value="=" id="container__btn-2" class="btn">=</button>
+			<button type="button" value=">" id="container__btn-3" class="btn">></button>
+		</div>
+		<div id="container__list">
+			<div id="container__list-item1">?</div>
+			<div id="container__list-item2">?</div>
+			<div id="container__list-item3">?</div>
+			<div id="container__list-item7">...</div>
+			<div id="container__list-item4">?</div>
+			<div id="container__list-item5">?</div>
+			<div id="container__list-item6">?</div>
+		</div>
+		<div id="container__info">
+			<label>Điểm:</label><span id="container__score">0</span>
+		</div>
+		<div id="container__status">
+			<label>Tổng Số:</label><span id="container__status-id">0</span>
+		</div>
+		<div id="container__result">
+			Trong vòng 60s <br>
+			Số câu bạn đã làm: <span id="container__status-coppy">0</span><br>
+			Số câu bạn làm đúng: <span id="container__score-coppy">0</span><br>
+			<button type="button" id="container__btn-restart">Chơi lại</button>
+			<button type="button" id="container__btn-result">Xem kết quả</button>
+		</div>
+	</div>
+	<div id="dashbord">
+		<table width="700px" id="pos">
+			<tr>
+				<td>Số 1</td>
+				<td>Phép Tính 1</td>
+				<td>Số 2</td>
+				<td>Số 3</td>
+				<td>Phép Tính 2</td>
+				<td>Số 4</td>
+				<td>Đáp án bạn chọn</td>
+				<td>Đáp án đúng</td>
+			</tr>
+		</table>
+		<button type="button" id="back">Quay Lại</button>
+	</div>
+	<script src="./js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
